@@ -1,0 +1,1 @@
+docker exec -it habitrkr-db psql -U $HABITRKR_DB_USERNAME

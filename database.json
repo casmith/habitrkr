@@ -1,0 +1,10 @@
+{
+  "dev": {
+    "driver": "pg",
+    "user": {"ENV": "HABITRKR_DB_USERNAME"},
+    "password": {"ENV": "HABITRKR_DB_PASSWORD"},
+    "host": "localhost",
+    "database": "habitrkr",
+    "port": "5432"
+  }
+}
