@@ -5,7 +5,7 @@
 Install the latest node.js LTS version. E.g.,
 
 ```
-nvm install 18
+nvm install 20
 ```
 
 Then run `npm install` to pull down all of the project dependencies. 
