@@ -15,8 +15,8 @@ Then run `npm clean-install` to pull down all of the project dependencies.
 This project use posgresql. To quickly spin up a development instance using docker, first you'll need to set some database credentials as environment variables:
 
 ```
-export HABITRKR_DATABASE_USERNAME=habitrkr
-export HABITRKR_DATABASE_PASSWORD=habitrkr
+export HABITRKR_DB_USERNAME=habitrkr
+export HABITRKR_DB_PASSWORD=habitrkr
 ```
 
 ...and then run the following: 
