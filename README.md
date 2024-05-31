@@ -8,15 +8,15 @@ Install the latest node.js LTS version. E.g.,
 nvm install 20
 ```
 
-Then run `npm install` to pull down all of the project dependencies. 
+Then run `npm clean-install` to pull down all of the project dependencies. 
 
 ## Database initialization
 
 This project use posgresql. To quickly spin up a development instance using docker, first you'll need to set some database credentials as environment variables:
 
 ```
-export HABITRKR_DB_USERNAME=habitrkr
-export HABITRKR_DB_PASSWORD=habitrkr
+export HABITRKR_DATABASE_USERNAME=habitrkr
+export HABITRKR_DATABASE_PASSWORD=habitrkr
 ```
 
 ...and then run the following: 
