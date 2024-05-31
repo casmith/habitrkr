@@ -19,8 +19,6 @@ const goalsRepository = new GoalsRepository(dbConfig);
 
 app.use(express.json());
 
-app.get("/", (req, res) => res.send("Hello!"));
-
 app.get('/users/:id', (req, res) => {
   usersRepository.get(req.params.id).then(user => res.send(user[0]));
 });
@@ -34,7 +32,6 @@ app.get('/goals/:id', (req, res) => {
 });
 
 app.post('/goals', (req, res) => {
-
   const body = req.body;
   goalsRepository.insert(body.userId, body.label, body.target, body.period)
     .then(() => res.send("done"));
